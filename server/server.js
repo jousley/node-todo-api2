@@ -28,7 +28,7 @@ app.get('/todos', (req, res) => {
         res.send({todos});
     }, () => {
         res.status(400).send(e);
-    })
+    });
 });
 
 
